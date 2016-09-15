@@ -19,16 +19,6 @@ header {
   height: 90vh;
 }
 
-.introduction h2 {
-  font-family: 'Raleway', sans-serif;
-  font-size: 3vh;
-  margin: 0;
-  padding-top: 25px;
-  opacity: 0.7;
-  letter-spacing: 2px;
-  line-height: 40px;
-}
-
 .introduction h1 {
   font-family: 'Playfair Display', sans-serif;
   font-size: 8vh;
@@ -38,6 +28,16 @@ header {
   padding-top: 80px;
   margin: 0;
   letter-spacing: 2px;
+}
+
+.introduction h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 3vh;
+  margin: 0;
+  padding-top: 25px;
+  opacity: 0.7;
+  letter-spacing: 2px;
+  line-height: 40px;
 }
 
 .first-call {
@@ -61,8 +61,7 @@ header {
 /* speakers */
 
 .speakers {
-  background-color: #DDE0AE;
-  /* background-color: rgba(255, 226, 143, 0.8); */
+  background-color: #dde0ae;
   background-size: 100% 100%;
   padding-bottom: 10px;
 }
@@ -119,34 +118,30 @@ a:hover {
   background-size: cover;
   height: 80vh;
   color: #000;
-  padding-top: 10px;
+  padding: 10px 0;
 }
 
 .date {
   font-family: 'Raleway', sans-serif;
   font-weight: 500;
-  padding: 0 0 40px 0;
+  padding: 50px 0;
   font-size: 25px;
 }
 
-.location h1, h3 {
+.location h1 {
   font-family: 'Playfair Display', sans-serif;
   font-style: italic;
   text-transform: uppercase;
-  font-size: 45px;
+  font-size: 50px;
   margin: 0;
-  padding: 10px 0;
+  padding: 50px 0;
   letter-spacing: 2.5px;
-}
-
-.location h3 {
-  padding-top: 30px;
 }
 
 .location p {
   font-family: 'Raleway', sans-serif;
   font-weight: 500;
-  padding-top: 40px;
+  padding-top: 50px;
   font-size: 28px;
   margin: 0;
 }
@@ -192,7 +187,7 @@ a:hover {
   color: #fff;
   padding: 12px 30px;
   border-radius: 5px;
-  margin: 10px 0 40px 0;
+  margin: 20px 0 20px 0;
   cursor: pointer;
 }
 
@@ -203,11 +198,9 @@ a:hover {
 /* footer */
 
 .container {
-  /* background-color: #ffbf93; */
   display: column;
   justify-content: center;
   padding-bottom: 25px;
-  /* background-size: cover; */
 }
 
 .container h2 {
@@ -218,13 +211,15 @@ a:hover {
   text-transform: uppercase;
   font-weight: 500;
   font-size: 20px;
-  padding: 10px 0 5px 0;
+  padding: 20px 10px 5px 0;
 }
 
 footer img {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
+  width: 200px;
+  height: 130px;
+  border-color: white;
+  border-style: solid;
+  border-radius: 1%;
 }
 
 /* media queries */
@@ -234,12 +229,6 @@ footer img {
 .introduction h1 {
     font-size: 100px;
   }
-
-/*.speakers {
-    background: url('images/background2.png');
-    background-size: cover;
-    height: 80vh;*/
-}
 
 .flex-container {
   margin-left: 6%;
@@ -260,13 +249,9 @@ footer img {
   margin-right: 25%;
 }
 
-@media (min-width:1024px) {
-
-/*.speakers {
-  background: url('images/background2.png');
-  background-size: cover;
-  height: 80vh;*/
 }
+
+@media (min-width:1024px) {
 
 .flex-container {
   margin-left: 18%;
@@ -276,4 +261,6 @@ footer img {
 .description {
   margin-left: 25%;
   margin-right: 25%;
+}
+
 }
